@@ -48,6 +48,9 @@ binary_remote_addr='$binary_remote_addr'
 request_method='$request_method' 
 limit='$limit'
 
+## Download packages
+
+wget http://img.congdonglinux.vn/upload/installscript.tar.gz
 
 ## Compile nginx
 useradd nginx -c "NGINX User" -d /var/lib/nginx -s /sbin/nologin
